@@ -1,0 +1,45 @@
+
+
+.container-1{
+max-width: 1000px;
+margin: 0 auto;
+min-height: 100vh;
+padding: 30px;
+
+}
+
+
+.posts{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+ 
+
+}
+
+.post-card {
+  color:#e1e1e6;
+    padding: 30px;
+    
+}
+
+.post img {
+max-width: 100%;
+
+}
+.post{
+  
+box-shadow:0 0 5px #2e2e2e;
+transition: transform 100ms ease-in-out;
+background-color: #2e2e2e;
+}
+
+
+.post:hover{
+
+    transform: scale(1.05);
+}
+
+.texto-secreto{
+    color:#e1e1e6;
+}
